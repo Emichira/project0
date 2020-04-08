@@ -1,3 +1,15 @@
 .nyeusi {
     color: white !important;
 }
+
+.header {
+    padding: 100px;
+    background: url(../img/internet-abstract.jpg) center center no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.prof-pic {
+    width: 300px;
+    border-radius: 50%;
+}
