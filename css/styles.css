@@ -18,6 +18,13 @@ body {
     height: 100%;
 }
 
+.about-sec {
+    padding: 100px;
+    background: url(../img/10.jpg) center center no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
 .prof-pic {
     width: 300px;
     border-radius: 50%;
