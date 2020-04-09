@@ -1,8 +1,12 @@
+body {
+    overflow-x: hidden;
+  }
+
 .nyeusi {
     color: white !important;
 }
 
-.header {
+.header-sec {
     padding: 100px;
     background: url(../img/internet-abstract.jpg) center center no-repeat;
     background-size: cover;
@@ -12,4 +16,28 @@
 .prof-pic {
     width: 300px;
     border-radius: 50%;
+}
+
+.l-text {
+    font-size: 30px;
+}
+
+.m-text {
+    font-size: 25px;
+}
+
+.page-section {
+    padding: 100px;
+}
+
+#navbar-icon-color {
+    background-color: whitesmoke;
+}
+
+#skill-sec {
+    margin-bottom: 25px;
+}
+
+.m-t-20 {
+    margin-top: 20px;
 }
