@@ -1,5 +1,10 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     overflow-x: hidden;
+    min-height: 100%;
   }
 
 .nyeusi {
@@ -40,4 +45,32 @@ body {
 
 .m-t-20 {
     margin-top: 20px;
+}
+
+#futa {
+    position: fixed;
+    bottom: 0;
+    background: #222222;
+}
+
+#futa p {
+    color: blanchedalmond;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 25px;
+    line-height: 50px;
+}
+
+#futa p.social a,i {
+    margin-left: 10px;
+    color: white;
+    width: 20px;
+    font-size: xx-large;
+}
+
+.copyright {
+    text-align: right;
+}
+
+#space {
+    padding: 50px;
 }
