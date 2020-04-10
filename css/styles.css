@@ -12,17 +12,30 @@ body {
 }
 
 .header-sec {
-    padding: 100px;
-    background: url(../img/internet-abstract.jpg) center center no-repeat;
-    background-size: cover;
+    padding: 30px;
     height: 100%;
 }
 
+.yenyewe-sec {
+    background: url(../img/internet-abstract.jpg) center center no-repeat;
+    background-size: cover;
+}
 .about-sec {
     padding: 100px;
     background: url(../img/10.jpg) center center no-repeat;
     background-size: cover;
     height: 100%;
+}
+
+.portfolio-sec {
+    padding: 100px;
+    background: url(../img/markus-spiske.jpg) center center no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.about-me {
+    padding: 100px;
 }
 
 .prof-pic {
@@ -80,4 +93,13 @@ body {
 
 #space {
     padding: 50px;
+}
+
+.abaut {
+    padding: 30px;
+    font-size: initial;
+}
+
+.projects {
+    width: 100px;
 }
