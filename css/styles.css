@@ -49,8 +49,15 @@ body {
 }
 
 .page-section {
-    padding: 20px;
+    padding: 10px;
 }
+
+@media (min-width: 768px) {
+    #skills {
+        padding: 20px;
+    }
+  }
+  
 
 #navbar-icon-color {
     background-color: whitesmoke;
@@ -99,4 +106,10 @@ body {
 
 .projects {
     width: 100px;
+}
+
+.futa {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
 }
