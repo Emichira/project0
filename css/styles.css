@@ -3,8 +3,9 @@ html {
   }
 
 body {
-    overflow-x: hidden;
-    min-height: 100%;
+    min-height: 400px;
+    margin-bottom: 100px;
+    clear: both;
   }
 
 .nyeusi {
@@ -39,7 +40,7 @@ body {
 }
 
 .prof-pic {
-    width: 300px;
+    width: 190px;
     border-radius: 50%;
 }
 
@@ -52,7 +53,7 @@ body {
 }
 
 .page-section {
-    padding: 100px;
+    padding: 10px;
 }
 
 #navbar-icon-color {
