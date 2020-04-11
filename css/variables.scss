@@ -1,0 +1,39 @@
+$color: white;
+$background: #212529;
+$unodad: #4fbfa8;
+$para: yellow;
+$size-font: 18px;
+
+%paragraph {
+    font-family: 'Roboto Slab', serif;
+    padding: 5px;
+}
+
+.page-section {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: $background;
+
+    h2 {
+        @extend %paragraph;
+        color: $color;
+    }
+}
+
+div {
+    h4 {
+        @extend %paragraph;
+        color: $color;
+    }
+
+    p {
+        @extend %paragraph;
+        color: $para;
+        font-size: $size-font;
+    }
+
+    ul {
+        color: $unodad;
+        font-size: $size-font;
+    }
+}

@@ -1,0 +1,21 @@
+.page-section h2, div h4, div p {
+  font-family: 'Roboto Slab', serif;
+  padding: 5px; }
+
+.page-section {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #212529; }
+  .page-section h2 {
+    color: white; }
+
+div h4 {
+  color: white; }
+div p {
+  color: yellow;
+  font-size: 18px; }
+div ul {
+  color: #4fbfa8;
+  font-size: 18px; }
+
+/*# sourceMappingURL=variables.css.map */

@@ -48,16 +48,13 @@ body {
     font-size: 25px;
 }
 
-.page-section {
-    padding: 10px;
-}
 
 @media (min-width: 768px) {
     #skills {
         padding: 20px;
     }
   }
-  
+
 
 #navbar-icon-color {
     background-color: whitesmoke;
@@ -111,5 +108,5 @@ body {
 .futa {
     display: flex;
     justify-content: space-between;
-    padding: 15px;
+    padding: 5px;
 }
